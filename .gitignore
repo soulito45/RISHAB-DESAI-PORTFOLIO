@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+
+# Local and deployment environment files; keep the safe template tracked.
+.env
+.env.*
+!.env.example
+
+# Local private keys and certificates
+*.pem
+*.key
